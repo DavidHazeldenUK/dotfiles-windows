@@ -1,4 +1,20 @@
-﻿# David Hazeldens dotfiles for Windows
+# How I use my Version of this...
+
+I store my settings in OneDrive, typically this results in this path:-
+
+C:\Users\daves\OneDrive\zzz_windowsSetup\Machines\DESKTOP-4790K\dotfiles-windows
+
+The zzz_windows setup folders are created by the choco-windows-sync scripts, which creates a different packages.config file for each machine, so I can have different programs, this script is a work in progress and I've not tried this for multiple machines, but I'm thinking of branching this repo for that purpose. Sorry if this don't make sense, will rewrite this later when I have more time.
+
+I've added Shortscuts to BAT files, which trigger ps1 files, this overcomes the Windows ExecutionPolicy settings on your machine, on a per script basis.
+
+At this time, it seems like the ps1 files in your Documents/WindowsPowerShell/ need to be run manually.
+
+It's possible I might write my own deployment script, as the work flow I want needs reverse updates, so I can save a Windows Profile to github or a private repo.
+
+More to come when I get time...
+
+# David Hazeldens dotfiles for Windows
 
 A collection of PowerShell files for Windows, including common application installation through `Chocolatey` and `npm`, and developer-minded Windows configuration defaults.
 
@@ -120,7 +136,7 @@ Suggestions/improvements are
 
 | [![twitter/dpehazelden](https://www.gravatar.com/avatar/78c2bdf9b745744a28c728ec9163e128?s=70)](http://twitter.com/dpehazelden "Follow @dpehazelden on Twitter") |
 |---|
-| [Jay Harris](http://twitter.com/dpehazelden/) |
+| [David Hazelden](http://twitter.com/dpehazelden/) |
 ## Thanks to…
 
 * @[Mathias Bynens](http://mathiasbynens.be/) for his [OS X dotfiles](http://mths.be/dotfiles), which this repository is modeled after.
