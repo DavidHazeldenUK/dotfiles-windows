@@ -116,6 +116,11 @@ Suggestions/improvements are
 |---|
 | [Jay Harris](http://twitter.com/jayharris/) |
 
+## Mods By
+
+| [![twitter/dpehazelden](https://www.gravatar.com/avatar/78c2bdf9b745744a28c728ec9163e128?s=70)](http://twitter.com/dpehazelden "Follow @dpehazelden on Twitter") |
+|---|
+| [Jay Harris](http://twitter.com/dpehazelden/) |
 ## Thanks to…
 
 * @[Mathias Bynens](http://mathiasbynens.be/) for his [OS X dotfiles](http://mths.be/dotfiles), which this repository is modeled after.
